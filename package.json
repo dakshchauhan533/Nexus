@@ -1,12 +1,11 @@
 {
   "name": "nexus",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "server": "nodemon backend/server.js",
     "start": "node backend/server.js",
-		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "type": "module",
   "keywords": [],
@@ -24,5 +23,6 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
-  }
+  },
+  "description": ""
 }
