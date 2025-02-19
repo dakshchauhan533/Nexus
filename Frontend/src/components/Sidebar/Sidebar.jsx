@@ -1,6 +1,6 @@
 import Searchinput from "./Searchinput.jsx"
 import Logout from "./Logout.jsx"
-import Conversations from "./Conversations.jsx"
+import Conversations from "./conversations.jsx"
  const Sidebar = () => {
   return (
     <div className="border-r flex flex-col p-4 border-slate-500">

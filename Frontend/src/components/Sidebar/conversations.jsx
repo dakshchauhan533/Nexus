@@ -1,8 +1,8 @@
-import UseGetConversation from "../../hooks/UseGetConversation.js";
+import useGetConversation from "../../hooks/useGetConversation";
 import Conversation from "./Conversation.jsx"
 
-const conversations = () => {
-  const {loading,conversations} = UseGetConversation();
+const Conversations = () => {
+  const {loading,conversations} = useGetConversation();
   //  console.log("Conversations:",conversations);
   return (
     <div className="flex flex-col overflow-auto py-2">
@@ -13,4 +13,4 @@ const conversations = () => {
   )
 }
 
-export default conversations
+export default Conversations
