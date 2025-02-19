@@ -1,4 +1,4 @@
-import useGetConversation from "../../hooks/useGetConversation";
+import useGetConversation from "../../hooks/UseGetConversation";
 import Conversation from "./Conversation.jsx"
 
 const Conversations = () => {
